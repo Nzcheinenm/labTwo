@@ -47,7 +47,7 @@ public class Main {
         return arr;
    }
 
-   private static int[] combineSort (int[] arr) {
+   private static int[] combineSort (int[] arr) {  //  Сортировка Расческой
         int lenArr = arr.length;
 
         while (lenArr > 1) {
