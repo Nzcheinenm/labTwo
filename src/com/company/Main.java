@@ -10,9 +10,19 @@ public class Main {
         int[] arrayOneTwo = {4,3,2,5,1,9};
         int[] arrayTwo = {6,5,4,3,8,2,1,7};
 
+        int[] arrayOne1 = {1,4,2,6,3};
+        int[] arrayOneTwo1 = {4,3,2,5, 10};
+        int[] arrayTwo1 = {6,5,4,3,8,2,1,7};
+
+
         System.out.println("Bubble, test 1 - " + Arrays.toString(bubbleSort(arrayOne))); // 1 2 3 4 6
         System.out.println("Select, test 1 - " + Arrays.toString(selectSort(arrayOneTwo))); // 1 2 3 4 5 9
         System.out.println("Combine, test 1 - " + Arrays.toString(combineSort(arrayTwo)) + "\n"); // 1 2 3 4 5 6 7 8
+
+        System.out.println("Combine, test 2 - " + Arrays.toString(combineSort(arrayOne1))); // 1 2 3 4 6
+        System.out.println("Select, test 2 - " + Arrays.toString(selectSort(arrayOneTwo1))); //  2 3 4 5 10
+        System.out.println("Bubble, test 2 - " + Arrays.toString(bubbleSort(arrayTwo1)) + "\n"); // 1 2 3 4 5 6 7 8
+
 
     }
 
